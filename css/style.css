@@ -6,9 +6,14 @@
 @import "./utilidades/cores.css";
 @import "./utilidades/componentes.css";
 
-/*  */
+/* Header */
 @import "./global/header.css";
+
+/* Intro */
 @import "./home/introducao.css";
+
+/* Lista de Bicicletas*/
+@import "./bicicletas/bicicletas_lista.css";
 
 
 
