@@ -10,6 +10,9 @@
 .titulo-2 {
   font: 600 32px/1.25 'Poppins';
 }
+.titulo-3 {
+  font: 500 24px/1.5 'Poppins';
+}
 .texto {
   font-family: "Roboto";
   font-weight: 400;
@@ -24,7 +27,6 @@
 }
 .preco {
   font: 400 18px/1.33 'Roboto';
-
 }
 @media (max-width: 1200px){
   .titulo{

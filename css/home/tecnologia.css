@@ -1,7 +1,7 @@
 .tecnologia-bg {
   background-color: var(--cor-11);
   margin-top: 120px;
-  box-shadow: inset 0 100px #fff, inset 0 -100px #fff;
+  box-shadow: inset 0 120px #fff, inset 0 -120px #fff;
 
 }
 #ferramentas {
@@ -16,19 +16,19 @@
   gap: 40px;
 }
 .tecnologia-informacoes {
-  padding-top: 100px;
+  padding-top: 180px;
+  padding-bottom: 180px;
 }
 .tecnologia-informacoes p {
   padding-bottom: 20px;
 }
 .tecnologia-informacoes h1 {
-  padding-bottom: 20px;
+  padding-bottom: 32px;
 }
 .infos {
   display: flex;
   gap: 40px;
-  padding-top: 50px;
-  padding-bottom: 120px;
+  padding-top: 80px;
 }
 .infos h3 {
   padding-top: 8px;
@@ -57,4 +57,21 @@
 .link:hover::after {
   background-color: var(--cor-p2);
   transition: 0.2s;
+}
+
+@media (max-width: 800px) {
+  #ferramentas {
+    display: none;
+  }
+  .tecnologia {
+    grid-template-columns: 1fr;
+  }
+  .tecnologia-bg {
+    margin-top: 80px;
+    box-shadow: none;
+  }
+  .tecnologia-informacoes {
+    padding-top: 40px;
+    padding-bottom: 40px;
+  }
 }
