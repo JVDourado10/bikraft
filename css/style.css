@@ -9,8 +9,9 @@
 /* Header */
 @import "./global/header.css";
 
-/* Intro */
+/* Home */
 @import "./home/introducao.css";
+@import "./home/tecnologia.css";
 
 /* Lista de Bicicletas*/
 @import "./bicicletas/bicicletas_lista.css";

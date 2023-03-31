@@ -15,7 +15,12 @@
   font-weight: 400;
   font-size: 24px;
   line-height: 1.5;
-  padding: 32px 0 20px 0;
+}
+.texto-up, .link {
+  text-transform: uppercase;
+}
+.texto-up {
+  font: 500 20px/1.33 'Roboto';
 }
 .preco {
   font: 400 18px/1.33 'Roboto';

@@ -21,6 +21,9 @@
 .introducao-texto {
   padding-bottom: 120px;
 }
+.introducao-texto p {
+  padding: 30px 0;
+}
 
 @media (max-width: 1200px) {
   .introducao-bg {
