@@ -13,6 +13,10 @@
 .titulo-3 {
   font: 500 24px/1.5 'Poppins';
 }
+.titulo-4 {
+  font: 600 36px/1.33 'Poppins';
+  text-transform: uppercase;
+}
 .texto {
   font-family: "Roboto";
   font-weight: 400;

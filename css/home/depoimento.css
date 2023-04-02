@@ -5,7 +5,7 @@
 .depoimento {
   display: grid;
   grid-template-columns: 1fr 1fr;
-  margin: 120px 0;
+  margin: 120px 0 0 0;
   background-color: var(--cor-p1);
 }
 .depoimento-texto {
