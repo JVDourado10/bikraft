@@ -1,0 +1,36 @@
+.footer-bg {
+  background-color: #000;
+  padding: 30px 0 0 0;
+}
+.footer {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+}
+.redes {
+  display: flex;
+  gap: 32px;
+  margin-top: 32px;
+}
+.footer .texto-up {
+  font-size: 24px;
+  margin-bottom: 32px;
+}
+#direitos {
+  margin-top: 80px;
+}
+.footer a {
+  display: block;
+}
+.contato p:nth-child(odd) {
+  position: relative;
+  margin-bottom: 18px;
+}
+.contato p:nth-child(odd)::after {
+  content: '';
+  display: block;
+  position: absolute;
+  height: 2px;
+  width: 90%;
+  background-color: var(--cor-11);
+  top: 44px;
+}
