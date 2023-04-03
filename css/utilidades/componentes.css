@@ -11,6 +11,10 @@
   font-family: 'Poppins';
   
 }
+.botao-seta {
+  display: inline-block;
+  margin-left: 16px;
+}
 .botao:hover {
   background: linear-gradient(var(--cor-p2), var(--cor-p3));
 }

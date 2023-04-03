@@ -17,6 +17,9 @@
   font: 600 36px/1.33 'Poppins';
   text-transform: uppercase;
 }
+.titulo-5 {
+  font: 600 36px/1.11 'Poppins';
+}
 .texto {
   font-family: "Roboto";
   font-weight: 400;
@@ -25,6 +28,18 @@
 }
 .texto-2 {
   font: 500 18px/2 'Roboto';
+}
+.texto-3 {
+  font: 400 18px/1.33 'Roboto';
+}
+.texto-4 {
+  font: 500 18px/1.33 'Poppins';
+}
+.texto-header {
+  font-family: "Roboto";
+  font-weight: 400;
+  font-size: 24px;
+  line-height: 1.5;
 }
 .texto-up, .link {
   text-transform: uppercase;
@@ -39,7 +54,7 @@
   .titulo{
     font-size: 48px;
   }
-  .texto {
+  .texto, .texto-header {
     font-size: 20px;
   }
 }
@@ -47,7 +62,7 @@
   .titulo{
     font-size: 40px;
   }
-  .texto {
+  .texto, .texto-header {
     font-size: 18px;
   }
 }
