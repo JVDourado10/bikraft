@@ -1,0 +1,16 @@
+.termos h2 {
+  font-weight: 600;
+}
+.termos {
+  margin-top: 90px;
+  margin-bottom: 90px;
+  display: grid;
+  gap: 48px;
+}
+.termos-item {
+  display: grid;
+  gap: 20px;
+}
+.termos-item p {
+  max-width: 90ch;
+}
