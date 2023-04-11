@@ -1,0 +1,101 @@
+.seguros-bg {
+  padding-bottom: 90px;
+}
+.vantagens-bg {
+  background: var(--cor-12);
+  padding-bottom: 120px;
+}
+.vantagens .titulo-2 {
+  font-size: 24px;
+}
+.vantagens .titulo {
+  margin-top: 90px;
+}
+.vantagens-conteudo {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 40px;
+  margin-top: 80px;
+  align-items: start;
+}
+.vantagens-conteudo div{
+  display: grid;
+  gap: 8px;
+}
+.perguntas .titulo-2 {
+  font-size: 18px;
+}
+.perguntas-conteudo {
+  margin: 80px 0;
+}
+.perguntas-conteudo div {
+  padding: 20px 40px;
+  cursor: pointer;
+}
+.perguntas-conteudo div:nth-child(odd) {
+  background: var(--cor-1);
+  border-radius: 4px;
+}
+.perguntas-conteudo p{
+  margin-top: 16px;
+  max-width: 80ch;
+}
+.perguntas-conteudo .titulo-2 {
+  position: relative;
+  display: flex;
+  justify-content: space-between ;
+}
+.perguntas-conteudo .titulo-2::before {
+  content: '';
+  height: 8px;
+  width: 12px;
+  background-color: var(--cor-p1);
+  display: inline-block;
+  border-radius: 4px;
+  margin-right: 8px;
+  left: -20px;
+  top: 7px;
+  position: absolute;
+  transition: 0.3s;
+}
+.perguntas-conteudo .titulo-2::after {
+  content: url(../../img/icones/seta-abrir.svg);
+  display: inline-block;
+}
+.perguntas-conteudo .titulo-2:nth-child(1)::after{
+  transform: rotate(180deg);
+}
+.perguntas-bg {
+  margin-top: 60px;
+}
+
+@media(max-width: 1000px) {
+  .perguntas-bg {
+    margin-top: 30px;
+  }
+  .perguntas-conteudo {
+    margin: 40px 0;
+  }
+}
+@media(max-width: 800px){
+  .seguros-bg {
+    padding-bottom: 30px;
+  }
+  .vantagens .titulo {
+    margin-top: 30px;
+  }
+}
+@media(max-width: 700px){
+  .vantagens-conteudo {
+    grid-template-columns: repeat(2, 1fr);
+    margin-top: 50px;
+    gap: 30px;
+  }
+}
+@media(max-width: 500px){
+  .vantagens-conteudo {
+    grid-template-columns: 1fr;
+    margin-top: 50px;
+    gap: 30px;
+  }
+}

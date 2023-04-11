@@ -8,17 +8,17 @@
   color: var(--cor-p1);
 }
 .titulo-2 {
-  font: 600 32px/1.25 'Poppins';
+  font: 600 32px/1.25 "Poppins";
 }
 .titulo-3 {
-  font: 500 24px/1.5 'Poppins';
+  font: 500 24px/1.5 "Poppins";
 }
 .titulo-4 {
-  font: 600 36px/1.33 'Poppins';
+  font: 600 36px/1.33 "Poppins";
   text-transform: uppercase;
 }
 .titulo-5 {
-  font: 600 36px/1.11 'Poppins';
+  font: 600 36px/1.11 "Poppins";
 }
 .texto {
   font-family: "Roboto";
@@ -27,13 +27,19 @@
   line-height: 1.5;
 }
 .texto-2 {
-  font: 500 18px/2 'Roboto';
+  font: 500 18px/2 "Roboto";
 }
 .texto-3 {
-  font: 400 18px/1.33 'Roboto';
+  font: 400 18px/1.33 "Roboto";
 }
 .texto-4 {
-  font: 500 18px/1.33 'Poppins';
+  font: 500 18px/1.33 "Poppins";
+}
+.texto-5 {
+  font: 400 14px/1.43 "Roboto";
+}
+.texto-6 {
+  font: 500 16px/1.5 "Roboto";
 }
 .texto-header {
   font-family: "Roboto";
@@ -41,33 +47,42 @@
   font-size: 24px;
   line-height: 1.5;
 }
-.texto-up, .link {
+.texto-up,
+.link {
   text-transform: uppercase;
 }
 .texto-up {
-  font: 500 20px/1.33 'Roboto';
+  font: 500 20px/1.33 "Roboto";
 }
 .preco {
-  font: 400 18px/1.33 'Roboto';
+  font: 400 18px/1.33 "Roboto";
 }
-@media (max-width: 1200px){
-  .titulo{
+@media (max-width: 1200px) {
+  .titulo {
     font-size: 48px;
   }
-  .texto, .texto-header {
+  .texto,
+  .texto-header {
     font-size: 20px;
   }
 }
-@media (max-width: 1000px){
-  .titulo{
+@media (max-width: 1000px) {
+  .titulo {
     font-size: 40px;
   }
-  .texto, .texto-header {
+  .texto,
+  .texto-header {
     font-size: 18px;
   }
 }
 @media (max-width: 800px) {
   .texto {
     padding: 16px 0 12px 0;
+  }
+  .titulo-2 {
+    font-size: 24px;
+  }
+  .preco{
+    font-size: 16px;
   }
 }

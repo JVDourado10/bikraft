@@ -82,6 +82,7 @@
 .bicicletas-lista-2-elementos:nth-child(3) {
   margin-top: 60px;
 }
+
 @media (max-width: 1000px) {
   .bicicleta-foto img {
     object-position: right;
