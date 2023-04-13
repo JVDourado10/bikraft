@@ -1,0 +1,197 @@
+#contato {
+  background: var(--cor-1);
+}
+.mensagem-bg {
+  background-color: var(--cor-11);
+  box-shadow: inset 0 -300px var(--cor-1);
+  margin-bottom: 90px;
+}
+.mensagem-infos {
+  background: var(--cor-12);
+  border-radius: 4px 0 0 4px;
+  padding: 60px;
+}
+.mensagem-infos h4 {
+  margin-bottom: 64px;
+}
+.mensagem-infos div {
+  padding-bottom: 32px;
+  padding-left: 32px;
+} 
+#mi-endereco, #mi-email, #mi-telefone {
+  position: relative;
+}
+#mi-endereco::before,  #mi-email::before, #mi-telefone::before{
+  position: absolute;
+  left: 6px;
+}
+#mi-endereco::before {
+  content: url(../../img/icones/local.svg);
+}
+#mi-email::before {
+  content: url(../../img/icones/email.svg);
+}
+#mi-telefone::before {
+  content: url(../../img/icones/telefone.svg);
+}
+.mensagem {
+  display: grid;
+  grid-template-columns: 5fr 7fr;
+}
+.mensagem-form {
+  background: var(--cor-0);
+  border-radius: 0 4px 4px 0;
+  padding: 60px;
+}
+.form {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 20px;
+}
+.form .titulo-3 {
+  font-size: 16px;
+}
+.form div:nth-child(3), .form div:nth-child(4), .form .botao {
+  grid-column: 1/3;
+}
+.form .botao {
+  justify-self: start;
+}
+.mensagem-form label {
+  display: block;
+}
+input, textarea {
+  width: 100%;
+  box-sizing: border-box;
+  font: 400 16px/1.5 "Roboto";
+  padding: 12px;
+  border: 1px solid var(--cor-2);
+  background: var(--cor-1);
+  border-radius: 4px;
+}
+input:focus, textarea:focus {
+  outline: none;
+  border-color: var(--cor-p1);
+  background: var(--cor-0);
+  box-shadow: 0 0 0 2px #fea;
+}
+input {
+  height: 48px;
+}
+button {
+  border: none;
+  cursor: pointer;
+}
+.ll-endereco-bg {
+  background: var(--cor-0);
+}
+.ll-endereco-bg img {
+  border-radius: 4px 4px 0 0;
+}
+.lojas h1 {
+  margin-bottom: 60px;
+}
+.lojas {
+  margin-bottom: 90px;
+}
+.ll-endereco-bg > div {
+  padding: 32px 32px 32px 60px;
+}
+.ll-endereco {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  margin-top: 32px;
+  margin-bottom: 32px;
+}
+.ll-endereco p {
+  border-left: 2px solid var(--cor-2);
+  padding-left: 12px;
+}
+.lojas-localizacao {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 40px;
+}
+.ll h2::before {
+  content: '';
+  height: 8px;
+  width: 12px;
+  background-color: var(--cor-p1);
+  display: block;
+  border-radius: 4px;
+  left: -18px;
+  top: 16px;
+  position: absolute;
+}
+.ll h2 {
+  position: relative;
+}
+.ll > p {
+  position: relative;
+}
+.ll > p::before {
+  content: url(../../img/icones/horario.svg);
+  display: block;
+  position: absolute;
+  left: -24px;
+}
+
+@media(max-width: 1000px) {
+  .ll-endereco p {
+    padding-left: 8px;
+    font-size: 16px;
+  }
+  .ll-endereco {
+    margin-top: 24px;
+    margin-bottom: 24px;
+  }
+}
+@media(max-width: 900px) {
+  .ll-endereco {
+    grid-template-columns: 1fr;
+  }
+  .ll-endereco p {
+    border-left: none;
+    border-top: 2px solid var(--cor-2);
+  }
+}
+@media(max-width: 800px) {
+  .form {
+    grid-template-columns: 1fr;;
+  }
+  .form div:nth-child(3), .form div:nth-child(4), .form .botao {
+    grid-column: 1;
+  }
+  .ll h2::before {
+    top: 12px;
+  }
+  .ll-endereco {
+    margin-top: 18px;
+    margin-bottom: 18px;
+  }
+}
+@media(max-width: 700px) {
+  .mensagem {
+    grid-template-columns: 1fr;
+  }
+  .lojas-localizacao {
+    grid-template-columns: 1fr;
+  }
+  .ll-endereco {
+    grid-template-columns: 1fr 1fr;
+  }
+  .ll-endereco p {
+    border-left: 2px solid var(--cor-2);
+    padding-left: 12px;
+    border-top: none;
+  }
+}
+@media(max-width: 500px) {
+  .ll-endereco {
+    grid-template-columns: 1fr;
+  }
+  .ll-endereco p {
+    border-left: none;
+    border-top: 2px solid var(--cor-2);
+  }
+}

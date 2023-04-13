@@ -20,6 +20,9 @@
 .titulo-5 {
   font: 600 36px/1.11 "Poppins";
 }
+.titulo-6 {
+  font: 600 16px/1.5 "Poppins"
+}
 .texto {
   font-family: "Roboto";
   font-weight: 400;
@@ -40,6 +43,12 @@
 }
 .texto-6 {
   font: 500 16px/1.5 "Roboto";
+}
+.texto-7 {
+  font: 400 16px/1.5 "Roboto";
+}
+.texto-8 {
+  font: 600 14px/1.43 "Poppins";
 }
 .texto-header {
   font-family: "Roboto";
