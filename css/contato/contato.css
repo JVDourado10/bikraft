@@ -60,7 +60,7 @@
 .mensagem-form label {
   display: block;
 }
-input, textarea {
+input[type="text"], input[type="email"], textarea {
   width: 100%;
   box-sizing: border-box;
   font: 400 16px/1.5 "Roboto";
@@ -69,13 +69,13 @@ input, textarea {
   background: var(--cor-1);
   border-radius: 4px;
 }
-input:focus, textarea:focus {
+input[type="text"]:focus, input[type="email"]:focus, textarea:focus {
   outline: none;
   border-color: var(--cor-p1);
   background: var(--cor-0);
   box-shadow: 0 0 0 2px #fea;
 }
-input {
+input[type="text"], input[type="email"] {
   height: 48px;
 }
 button {

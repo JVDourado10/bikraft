@@ -23,6 +23,13 @@
 .titulo-6 {
   font: 600 16px/1.5 "Poppins"
 }
+.titulo-7 {
+  font: 600 12px/2 'Poppins';
+  text-transform: uppercase;
+}
+.titulo-8 {
+  font: 500 16px/1 "Poppins";
+}
 .texto {
   font-family: "Roboto";
   font-weight: 400;
