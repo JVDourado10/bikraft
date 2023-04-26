@@ -7,15 +7,18 @@
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Merriweather:wght@900&family=Poppins:wght@400;600&family=Roboto:wght@400;500&display=swap" rel="stylesheet">
+  <link rel="preload" href="./css/style.css" as="style">
   <link rel="stylesheet" href="./css/style.css">
   <title>Bikraft</title>
   <meta name="description" content="Bicicletas elétricas de alta precisão e qualidade feitas sob medida para o cliente. Explore o mundo na sua velocidade com a Bikraft">
+
+  <script>document.documentElement.classList.add('js');</script>
 </head>
 
 <body>
   <header class="menu-inicial-bg">
     <div class="container menu-inicial">
-      <a href="./"><img src="./img/bikcraft.svg" alt="Logo-Bikraft"></a>
+      <a href="./"><img src="./img/bikcraft.svg" width="136" height="32" alt="Logo-Bikraft"></a>
       <nav>
         <ul class="menu-inicial-lista">
           <li><a href="./bicicletas.html" class="menu-inicial-nav cor-0 texto-header">Bicicletas</a></li>
@@ -29,11 +32,11 @@
   <main class="introducao-bg">
     <div class="container introducao">
       <div class="introducao-texto">
-        <h1 class="titulo cor-0">Bicicletas feitas sob medida<span>.</span></h1>
-        <p class="texto cor-5">Bicicletas elétricas de alta precisão e qualidade, feitas sob medida para o cliente. Explore o mundo na sua velocidade com a Bikcraft.</p>
-        <a href="./bicicletas.html" class="botao">Selecione a sua</a>
+        <h1 class="titulo cor-0 fadeInDown" data-anime="200">Bicicletas feitas sob medida<span>.</span></h1>
+        <p class="texto cor-5 fadeInDown" data-anime="400">Bicicletas elétricas de alta precisão e qualidade, feitas sob medida para o cliente. Explore o mundo na sua velocidade com a Bikcraft.</p>
+        <a href="./bicicletas.html" class="botao fadeInDown" data-anime="600">Selecione a sua</a>
       </div>
-      <div class="introducao-imagem">
+      <div class="introducao-imagem fadeInDown" data-anime="800">
         <img src="./img/fotos/introducao.jpg" alt="Bicicleta elétrica preta">
       </div>
     </div>
@@ -71,38 +74,38 @@
         <p><a href="./bicicletas.html" class="link cor-p1">escolha um modelo</a></p>
         <div class="infos">
           <div>
-            <img src="./img/icones/eletrica.svg" alt="">
+            <img src="./img/icones/eletrica.svg" width="32" height="32" alt="">
             <h3 class="titulo-3 cor-0">Motor Elétrico</h3>
             <p class="texto cor-5">Toda Bikcraft é equipada com um motor elétrico que possui duração de até 120h. A bateria é recarregada com a sua energia gasta ao pedalar.</p>
           </div>
           <div>
-            <img src="./img/icones/rastreador.svg" alt="">
+            <img src="./img/icones/rastreador.svg" width="32" height="32" alt="">
             <h3 class="titulo-3 cor-0">Rastrador</h3>
             <p class=" texto cor-5">Sabemos o quão preciosa é a sua Bikcraft, por isso adicionamos rastreadores e sistemas anti-furto para garantir o seu sossego.</p>
           </div>
         </div>
       </div>
-      <img src="./img/fotos/tecnologia.jpg" alt="Ferramentas" id="ferramentas">
+      <img src="./img/fotos/tecnologia.jpg" width="1200" height="1920" alt="Ferramentas" id="ferramentas">
     </div>
   </section>
 
   <section class="parceiros">
     <h1 class="container titulo cor-12">nossos parceiros<span>.</span></h1>
     <ul>
-      <li><img src="./img/parceiros/caravan.svg" alt="Caravan"></li>
-      <li><img src="./img/parceiros/ranek.svg" alt="Caravan"></li>
-      <li><img src="./img/parceiros/handel.svg" alt="Caravan"></li>
-      <li><img src="./img/parceiros/dogs.svg" alt="Caravan"></li>
-      <li><img src="./img/parceiros/lescone.svg" alt="Caravan"></li>
-      <li><img src="./img/parceiros/flexblog.svg" alt="Caravan"></li>
-      <li><img src="./img/parceiros/wildbeast.svg" alt="Caravan"></li>
-      <li><img src="./img/parceiros/surfbot.svg" alt="Caravan"></li>
+      <li><img src="./img/parceiros/caravan.svg" width="140" height="38" alt="Caravan"></li>
+      <li><img src="./img/parceiros/ranek.svg" width="149" height="36" alt="Caravan"></li>
+      <li><img src="./img/parceiros/handel.svg" width="139" height="50" alt="Caravan"></li>
+      <li><img src="./img/parceiros/dogs.svg" width="152" height="39" alt="Caravan"></li>
+      <li><img src="./img/parceiros/lescone.svg" width="208" height="41" alt="Caravan"></li>
+      <li><img src="./img/parceiros/flexblog.svg" width="165" height="38" alt="Caravan"></li>
+      <li><img src="./img/parceiros/wildbeast.svg" width="196" height="34" alt="Caravan"></li>
+      <li><img src="./img/parceiros/surfbot.svg" width="200" height="49" alt="Caravan"></li>
     </ul>
   </section>
 
   <article class="depoimento">
     <div class="depoimento-foto">
-      <img src="./img/fotos/depoimento.jpg" alt="cliente andando numa Bikraft">
+      <img src="./img/fotos/depoimento.jpg" width="1560" height="1360" alt="cliente andando numa Bikraft">
     </div>
     <div class="depoimento-texto">
       <p class="depoimento-fala cor-p5">Pedalar sempre foi a minha paixão, o que o pessoal da Bikcraft fez foi intensificar o meu amor por esta atividade. Recomendo à todos que amo.</p>
@@ -142,7 +145,7 @@
 
   <footer class="footer-bg">
     <div class="footer container">
-      <img class="logo" src="./img/bikcraft.svg" alt="Logo Bikraft">
+      <img class="logo" src="./img/bikcraft.svg" width="136" height="32" alt="Logo Bikraft">
       <div class="contato cor-0">
         <h5 class="texto-up">CONTATO</h5>
         <p class="texto-2 cor-5">+55 74 99806-1735</p>
@@ -150,9 +153,9 @@
         <p class="texto-2 cor-5">Av Sete de Setembro, 3272 - Centro</p>
         <p class="texto-2 cor-5">Curitiba - PR</p>
         <div class="redes">
-          <a href="https://www.instagram.com/"><img src="./img/redes/instagram.svg" alt="Instagram"></a>
-          <a href="https://www.instagram.com/"><img src="./img/redes/facebook.svg" alt="Instagram"></a>
-          <a href="https://www.youtube.com/"><img src="./img/redes/youtube.svg" alt="youtube"></a>
+          <a href="https://www.instagram.com/"><img src="./img/redes/instagram.svg" width="32" height="32" alt="Instagram"></a>
+          <a href="https://www.instagram.com/"><img src="./img/redes/facebook.svg" width="32" height="32" alt="Instagram"></a>
+          <a href="https://www.youtube.com/"><img src="./img/redes/youtube.svg" width="32" height="32" alt="youtube"></a>
         </div>
       </div>
       <div>
@@ -165,6 +168,8 @@
       <p class="texto-2 cor-6" id="direitos">Bikraft © Alguns direitos reservados.</p>
     </div>
   </footer>
+  <script src="./js/simple-anime.js"></script>
+  <script src="./js/script.js"></script>
 </body>
 
 </html>

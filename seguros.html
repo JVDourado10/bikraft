@@ -7,9 +7,11 @@
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Merriweather:wght@900&family=Poppins:wght@400;600&family=Roboto:wght@400;500&display=swap" rel="stylesheet">
+  <link rel="preload" href="./css/style.css" as="style">
   <link rel="stylesheet" href="./css/style.css">
   <title>Bikraft | Seguros</title>
   <meta name="description" content="Bicicletas elétricas de alta precisão e qualidade feitas sob medida para o cliente. Explore o mundo na sua velocidade com a Bikraft">
+  <script>document.documentElement.classList.add('js');</script>
 </head>
 
 <body id="termos">
@@ -33,7 +35,7 @@
   </div>
   <main class="seguros-bg">
     <div class="planos container">
-      <div class="plano prata">
+      <div class="plano prata fadeInLeft" data-anime="200">
         <h4 class="titulo-4 cor-6">prata</h4>
         <h4 class="titulo-4 cor-0 valor">R$ 199</h4>
         <ul class="texto cor-0">
@@ -42,9 +44,9 @@
           <li>Suporte 08h às 18h</li>
           <li>Cobertura estadual</li>
         </ul>
-        <a class="botao secundario" href="./orcamento.html">inscreva-se</a>
+        <a class="botao secundario" href="./orcamento.html?tipo=seguro&bicicleta=plano1">inscreva-se</a>
       </div>
-      <div class="plano ouro">
+      <div class="plano ouro fadeInRight" data-anime="200">
         <h4 class="titulo-4 cor-p1">ouro</h4>
         <h4 class="titulo-4 cor-0 valor">R$ 299</h4>
         <ul class="texto cor-0">
@@ -55,7 +57,7 @@
           <li>Desconto em parceiros</li>
           <li>Acesso ao Clube Bikraft</li>
         </ul>
-        <a class="botao" href="./orcamento.html">inscreva-se</a>
+        <a class="botao" href="./orcamento.html?tipo=seguro&bicicleta=plano2">inscreva-se</a>
       </div>
     </div>
   </main>
@@ -151,6 +153,8 @@
       <p class="texto-2 cor-6" id="direitos">Bikraft © Alguns direitos reservados.</p>
     </div>
   </footer>
+  <script src="./js/simple-anime.js"></script>
+  <script src="./js/script.js"></script>
 </body>
 
 </html>
